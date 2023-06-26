@@ -1,0 +1,27 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./notify.min.css" />
+</head>
+
+<body>
+    <p id="welcome"></p>
+    <h1 style="color: white">PEOPLE COUNT</h1>
+    <h2 style="color: white" , id="counter">0</h2>
+    <button id="add-btn" , onclick="add()">
+        ADD++
+    </button>
+    <br>
+    <button id="sub-btn" , onclick="subtract()">SUBTRACT--</button>
+    <br>
+    <button id="res-btn" , onclick="reset(), notify({message:})">
+        RESET<span class="circle"></span>
+    </button>
+    <br>
+    <p id="res-p">Previous entries: </p>
+    <script src="counterApp.js"></script>
+    <script src="./notify.min.js"></script>
+</body>
+
+</html>
