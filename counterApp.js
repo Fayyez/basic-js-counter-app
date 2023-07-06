@@ -15,9 +15,9 @@ async function hideElement(element) {
   popup.style.display = "none";
 }
 
-function showPopup(msg,color) {
+function showPopup(msg, color) {
   popup.innerText = msg;
-  popup.style.backgroundColor = color
+  popup.style.backgroundColor = color;
   popup.style.display = "inline";
   hideElement(popup);
 }
