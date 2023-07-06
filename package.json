@@ -1,0 +1,11 @@
+{
+  "name": "basic-js-counter-app",
+  "version": "1.0.0",
+  "description": "an App that acts as a counter with basic functionality",
+  "main": "counterApp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "fayyez",
+  "license": "ISC"
+}
