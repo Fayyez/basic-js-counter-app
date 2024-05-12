@@ -29,7 +29,7 @@ function add() {
 
 function subtract() {
   if (peopleCount == 0) {
-    showPopup("Number of people cannot be less thsn '0'", "red");
+    showPopup("Number of people cannot be less than '0'", "red");
   } else {
     peopleCount -= 1;
     countEl.textContent = peopleCount;
